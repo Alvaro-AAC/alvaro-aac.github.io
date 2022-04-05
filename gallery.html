@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FunnyPet - Productos</title>
+	<link href="/images/favicon.png" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilo.css">
+	
+</head>
+<body>
+	<div class="container-fluid p-0" style="background-color:darkorange;">
+		<div class="container-sm pb-0 pt-0 pe-0 ps-0 pe-lg-3 ps-lg-3 pb-sm-3">
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-1" style="box-shadow: 1px 0px 4px 2px black;">
+				<div class="logoNavbar navbar-brand align-self-center">
+					<a href="index.html"><img src="images/logo.png" class="ms-2 d-inline img-fluid logoNavbar" alt="logo empresa"></a>
+					<!--<a href="#" id="brandAnchor"><h3 class="m-3 d-inline align-self-center">FunnyPet</h3></a>-->
+				</div>
+				<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPagina" aria-controls="navbarPagina" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarPagina">
+					<ul class="navbar-nav list-group-horizontal-lg text-end mt-0-lg">
+						<li class="nav-item me-0 mt-0 me-lg-0 mt-lg-0">
+							<a href="index.html" class="nav-link text-start ps-4">Inicio</a>
+						</li>
+						<li class="nav-item me-0 mt-0 me-lg-0 mt-lg-0">
+							<a href="about.html" class="nav-link text-start ps-4">Sobre Nosotros</a> <!--TODO: Añadir ref a 'about'-->
+						</li>
+						<li class="nav-item me-0 mt-0 me-lg-0 mt-lg-0 active">
+							<a href="#" class="nav-link active text-start ps-4">Productos</a> <!--TODO: Añadir ref a gallery-->
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<h1 class="text-center text-light mt-2 pt-2 mt-lg-2 pt-lg-4">Nuestros productos</h1>
+			<hr>
+			<div class="row text-center m-0 p-0">			
+				<div class="col-12 col-md-6 col-lg-4 b-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal1"
+							data-toggle="popover" data-bs-trigger="hover" title="Collar para Perros" data-bs-placement="bottom">
+							<img src="images/imgCollar.jpg" id="galeriaImg1" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-4 d-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal2"
+							data-toggle="popover" data-bs-trigger="hover" title="Plato para Mascotas" data-bs-placement="bottom">
+							<img src="images/imgComedero1.jpg" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-4 d-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal3"
+							data-toggle="popover" data-bs-trigger="hover" title="Correas para Mascotas" data-bs-placement="bottom">
+							<img src="images/imgCorrea1.jpg" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-4 d-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal4"
+							data-toggle="popover" data-bs-trigger="hover" title="Arnes para Perros" data-bs-placement="bottom">
+							<img src="images/imgArnes.jpg" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-4 d-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal5"
+							data-toggle="popover" data-bs-trigger="hover" title="Shampoo para Gato PET CARE" data-bs-placement="bottom">
+							<img src="images/imgShampooGato.jpg" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-4 d-inline mt-4 p-0">
+					<button type="button" class="btn btn-lg btn-outline-dark btn-light" style="box-shadow:1px 2px 5px 2px black"
+							data-bs-toggle="modal" data-bs-target="#miModal6"
+							data-toggle="popover" data-bs-trigger="hover" title="Rascador para Gatos" data-bs-placement="bottom">
+							<img src="images/imgRascador.png" alt="Imagen Accesorio" class="img-thumbnail img-fluid galeriaImg">
+					</button>
+				</div>
+				
+			</div>
+			
+			<footer class="text-center p-2">
+				<br>
+				<p class="d-block m-0">FunnyPet | <small>© Copyrigth Derechos reservados</small></p>
+				<p class="d-block m-0"><small>David Araya - Alvaro Arenas - Franco Fuentes - Vicente Pizarro</small></p>
+				<br>
+				<figure class="figure-img">
+					<a href="#"><img src="images/logoFacebook.png" alt="logo facebook" class="logoFooter img-fluid me-1 ms-1 me-md-3"/></a>
+					<a href="#"><img src="images/logoInstagram.png" alt="logo instagram" class="logoFooter img-fluid me-1 ms-1 me-md-3 ms-md-3"/></a>
+					<a href="#"><img src="images/logoTwitter.png" alt="logo twitter" class="logoFooter img-fluid me-1 ms-1 ms-md-3"/></a>
+				</figure>
+			</footer>
+			<!--Modal PopOver UI-->
+			<div class="modal fade" id="miModal1" tabindex="-1" aria-labelledby="miModalLabel1" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel1">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Accesorios &raquo; Perros</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Collares para Perros</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $4.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Collar para que tu animalito luzca como nunca! con una amplia variedad de estilos.</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant1" id="cant1" min="1" max="99" class="cantinput" required="required" autofocus>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal fade" id="miModal2" tabindex="-1" aria-labelledby="miModalLabel2" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel2">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Accesorios &raquo; Todos</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Platos para Mascotas</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $3.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Platos de doble seccion para tus mascotas de diferentes colores.</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant2" id="cant2" min="1" max="99" class="cantinput" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal fade" id="miModal3" tabindex="-1" aria-labelledby="miModalLabel3" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel3">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Acessorios &raquo; Todos</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Correas para Masotas</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $4.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Correas de distintos tamaños para collares y arn&eacute;s. Comb&iacute;nalas de diferentes maneras.</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant3" id="cant3" min="1" max="99" class="cantinput" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal fade" id="miModal4" tabindex="-1" aria-labelledby="miModalLabel4" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel4">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Acessorios &raquo; Perros</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Arn&eacute;s para Perros</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $5.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Arn&eacute;s que le brinda comodidad y estilo a tu mascota. Disponibles en diferentes colores.</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant4" id="cant4" min="1" max="99" class="cantinput" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal fade" id="miModal5" tabindex="-1" aria-labelledby="miModalLabel5" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel5">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Acessorios &raquo; Gatos</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Shampoo para Gato PET CARE Frasco 400ml</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $7.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Shampoo especial <i>Pet Care</i> que le brindara protecci&oacute;n e higiene a tu gato.</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant5" id="cant5" min="1" max="99" class="cantinput" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal fade" id="miModal6" tabindex="-1" aria-labelledby="miModalLabel6" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!--Modal cabecera-->
+						<div class="modal-header">
+							<h5 class="modal-tittle" id="miModalLabel6">Informaci&oacute;n del producto</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<!--Modal cuerpo-->
+						<div class="modal-body">
+							<small class="d-block">Acessorios &raquo; Gatos</small>
+							<br>
+							<p class="mb-0"><span class="fw-bold">Nombre: </span> Rascador para Gatos</p>
+							<p class="mb-0"><span class="fw-bold">Precio:</span> $45.990</p>
+							<p><span class="fw-bold">Descripci&oacute;n: </span><br>Un amplio y comodo rascador para que tu gato se sienta a gusto!</p>
+							<p class="mb-0"><span class="fw-bold">Dimensi&oacute;nes:</span> Ancho: 40cm , Alto: 120cm , Largo: 40cm</p>
+						</div>
+						<!--Modal cabecera pie-->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+							<form method="get">
+								<input type="submit" value="Añadir al carrito" name="carrito" class="btn btn-primary">
+								<input type="number" name="cant6" id="cant6" min="1" max="99" class="cantinput" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover();   
+	});
+</script>
+</body>
+</html>

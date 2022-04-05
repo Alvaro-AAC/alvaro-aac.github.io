@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logoFooter {
+	max-width: 5%;
+	min-width: 28px;
+}
+
+.carruselSlideImg {
+	margin: auto;
+	width: 100%;
+	cursor: pointer;
+}
+
+.textoAbout {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#brandAnchor {
+	text-decoration: none; 
+	color: inherit;
+}
+
+.logoNavbar {
+	max-width: 200px;
+	min-width: 100px;
+}
+
+.galeriaImg {
+	width: 300px;
+	height: 300px;
+}
+
+.carrito {
+	width: 60px;
+	cursor: pointer;
+}
+
+.cantinput {
+	width: 50px;
+}
+
+#videoAbout {
+	height: 315px;
+	width: 560px;
+}
+
+@media (min-device-width: 341px) and (max-device-width: 767px) {
+	#videoAbout {
+		width: 300px !important;
+		height: 169px !important;
+	}
+}
+
+@media (max-device-width: 340px) {
+	#videoAbout {
+		width: 230px !important;
+		height: 130px !important;
+	}
+}
+
+#seccionTexto {
+	background: linear-gradient(to bottom, darkorange 40%, orangered 90% 60%);
+	border-color: black !important;
+	border-width: 1px !important;
+	box-shadow: 1px 1px 5px 2px black;
+}
