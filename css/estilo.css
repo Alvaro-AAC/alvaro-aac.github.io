@@ -6,6 +6,11 @@
 	min-width: 28px;
 }
 
+hr {
+	opacity: 50%;
+	background-color: black;
+}
+
 .carruselSlideImg {
 	margin: auto;
 	width: 100%;
@@ -48,9 +53,19 @@
 	width: 50px;
 }
 
+.pwdreveal {
+	cursor: pointer;
+}
+
 #videoAbout {
 	height: 315px;
 	width: 560px;
+}
+
+#registrarse {
+	color: white;
+	margin-left: 620px;
+	padding: 5px 10px 5px 10px;
 }
 
 @media (min-device-width: 341px) and (max-device-width: 767px) {
@@ -64,6 +79,25 @@
 	#videoAbout {
 		width: 230px !important;
 		height: 130px !important;
+	}
+}
+
+@media (max-device-width: 1400px) {
+	#registrarse {
+		margin-left: 400px !important;
+	}
+}
+
+@media (max-device-width: 1200px) {
+	#registrarse {
+		margin-left: 250px !important;
+	}
+}
+
+@media (max-device-width: 991px) {
+	#registrarse {
+		margin-left: 20px !important;
+		margin-top: 15px !important;
 	}
 }
 
