@@ -30,7 +30,7 @@ const isEmail = (string) => /^[a-zA-Z0-9.]{1,}@[a-zA-Z0-9.]{2,}$/.test(string);
 const isRut = (string) => /^[0-9]{7,8}-[0-9Kk]{1}$/.test(string);
 const isTelefono = (string) => /^[0-9]{6,10}$/.test(string);
 const isPwd = (string) => /^[^]{8,24}$/.test(string);
-const isDireccion = (string) => /^\w{1,}\s{1}[a-zA-Z0-9.\sñ]{1,}$/.test(string);
+const isDireccion = (string) => /^\w{3,}\s{0,1}[a-zA-Z0-9.\sñ]{0,}$/.test(string);
 const isNumeracion = (string) => /^[0-9]{2,6}$/.test(string);
 const haveTwoSpace = (string) => /\s{2}/.test(string);
 
